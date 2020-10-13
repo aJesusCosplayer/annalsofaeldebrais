@@ -13,9 +13,8 @@
 		</description>
 		<setters>
 			<set name="abbreviation">AOA</set>
-			<!-- <set name="url"></set>
-			<set name="image"></set>
-			<set name="errata"></set> -->
+			<set name="url"></set>
+			<set name="image">https://i.pinimg.com/originals/f7/fa/fa/f7fafae1c5958bf5a64d3ce121235aff.jpg</set>
 			<set name="author" abbreviation="TBEA" url="https://www.google.com/">Thomas Beazer</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
