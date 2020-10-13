@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.0.2">
-      <file name="incomplete-annals-of-aldebrais.index" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebrais.index"/>
+		<name>The Incomplete Annals of Aldebräis</name>
+		<description>The supplement for the Aldebräis setting.</description>
+		<author url="http://www.google.com">Thomas Beazer</author>
+		<update version="0.0.2">
+		<file name="incomplete-annals-of-aldebrais.index" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebrais.index"/>
     </update>
   </info>
   <files>
