@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8' ?>
+<index>
+  <info>
+    <update version="0.0.1">
+      <file name="incomplete-annals-of-aldebrais.index" url="" />
+    </update>
+  </info>
+  <files>
+    <file name="source.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/source.xml" />
+  </files>
+</index>
