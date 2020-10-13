@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <update version="0.0.1">
-      <file name="incomplete-annals-of-aldebrais.index" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebrais.index" />
+    <update version="0.0.2">
+      < file name="incomplete-annals-of-aldebrais.index" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebrais.index" />
     </update>
   </info>
   <files>
-    <file name="source.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/source.xml" />
+    < file name="source.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/source.xml" />
+    < file name="spells.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/spells.xml" />
   </files>
 </index>
