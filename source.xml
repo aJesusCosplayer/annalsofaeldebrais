@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<!-- <info>
-		<update version="0.0.2">
-			<file name="sources.xml" url="" />
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/source.xml" />
 		</update>
-	</info> -->
+	</info>
 	<element name="The (Incomplete) Annals of Aldebräis" type="Source" source="Homebrew" id="ID_TBEA_SOURCE_ANNALS_ALDEBRAIS">
 		<description>
 			<![CDATA[<p><strong>A companion book for games played in the world of Aeldebräis.</strong></p>
