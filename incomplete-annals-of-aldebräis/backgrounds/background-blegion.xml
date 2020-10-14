@@ -4,7 +4,7 @@
 		<name>Betrayer's Legion</name>
 		<description>The Betrayer's Legion Background from The (Incomplete) Annals of Aldebräis</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-blegion.xml" />
 		</update>
 	</info>
