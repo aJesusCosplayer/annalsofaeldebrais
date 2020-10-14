@@ -4,14 +4,14 @@
 		<name>Betrayer's Legion</name>
 		<description>The Betrayer's Legion Background from The (Incomplete) Annals of Aldebräis</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-blegion.xml" />
 		</update>
 	</info>
 	
 	<element name="Betrayer's Legion" type="Background" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION">
 		<description>
-			<p>After the Banner War, thousands of people were left displaced or stranded in places they didn't know. Some people have adapted to this change, and some, like you, have found order in the post-war chaos through one organisation or another. You've served in the Betrayer's Legion, an independent military organisation based in Merteviv who pursue justice at any and all costs, and your time in its ranks has left its mark on you. Now, one reason or another, you've set out on your own path.</p>
+			<p>After the Banner War, thousands of people were left displaced or stranded in places they didn't know. Some people have adapted to this change, and some, like you, have found order in the post-war chaos through one organisation or another. You've served in the Betrayer's Legion, an independent military organisation based in Merteviv who pursue justice at any and all costs, and your time in its ranks has left its mark on you. Now, for one reason or another, you've set out on your own path.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Athletics, Insight</li>
 				<li><strong>Tool Proficiencies:</strong> One type of gaming set, vehicles (land)</li>
@@ -45,7 +45,7 @@
 				<item id="2">Equality: We must be fair, both to ourselves and those around us. (Lawful)</item>
 				<item id="3">Punishment: The guilty must be punished, and they must know why. (Evil)</item>
 				<item id="4">Unity: We are more together than we are alone. (Any)</item>
-				<item id="5">Justice: No law, person or power wil prevent what is right and fair. (Neutral)</item>
+				<item id="5">Justice: No law, person or power will prevent what is right and fair. (Neutral)</item>
 				<item id="6">Reality: This world, and all that exists within it is harsh. (Any)</item>
 			</select>
 			<select name="Bond" type="List">
