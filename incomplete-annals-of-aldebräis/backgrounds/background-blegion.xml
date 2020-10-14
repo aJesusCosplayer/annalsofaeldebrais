@@ -1,1 +1,76 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Betrayer's Legion</name>
+		<description>The Betrayer's Legion Background from The (Incomplete) Annals of Aldebräis</description>
+		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
+		<update version="0.0.1">
+			<file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-blegion.xml">
+		</update>
+	</info>
+	
+	<element name="Betrayer's Legion" type="Background" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION">
+		<description>
+			<p>After the Banner War, thousands of people were left displaced or stranded in places they didn't know. Some people have adapted to this change, and some, like you, have found order in the post-war chaos through one organisation or another. You've served in the Betrayer's Legion, an independent military organisation based in Merteviv who pursue justice at any and all costs, and your time in its ranks has left its mark on you. Now, one reason or another, you've set out on your own path.</p>
+			<p>
+				<b>Skill Proficiencies:</b> Athletics, Insight</br>
+				<b>Tool Proficiencies:</b> One type of gaming set, vehicles (land)</br>
+				<b>Equipment:</b> A set of common clothes, a brooch identifying you as a member of the Betrayer's Legion, a dungeoneer's pack and a belt pouch containing 25 sp.
+			</p>
+			<div element="ID_TBEA_AOA_BACKGROUND_BLEGION_FEATURE_NOTORIOUS_REPUTATION" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Those who serve in the Betrayer's Legion often have strong moral reasons for doing so; perhaps they've been a victim of crime or abuse and refuse to let others suffer as they have, or perhaps they have very strong views on law and order. You might be loud and opinionated, quiet and observant, or all too eager to speak with your fists.</p>
+		</description>
+		<setters>
+			<set name="short">Athletics, Insight, Gaming Set, Vehicles (Land)</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<select type="Proficiency" name="Gaming Set (Betrayer's Legion)" supports="Gaming Set"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<grant type="Background Feature" id="ID_TBEA_AOA_BACKGROUND_BLEGION_FEATURE_NOTORIOUS_REPUTATION" />
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">I'd rather let my actions speak for me.</item>
+				<item id="2">I would give up everything I have to pursue justice for the innocent.</item>
+				<item id="3">Anyone who takes advantage of another deserves whatever they get.</item>
+				<item id="4">Morals matter only as much as you can back them up.</item>
+				<item id="5">I always wonder if what I'm doing is really the 'right' thing to do.</item>
+				<item id="6">I don't like sitting idle, and try to find ways to occupy myself.</item>
+				<item id="7">I have to voice my opinions, and like other people to do the same.</item>
+				<item id="8">Justice should be simple, not drawn out and cruel.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Kindness: The world is cruel, but we don't have to be. (Good)</item>
+				<item id="2">Equality: We must be fair, both to ourselves and those around us. (Lawful)</item>
+				<item id="3">Punishment: The guilty must be punished, and they must know why. (Evil)</item>
+				<item id="4">Unity: We are more together than we are alone. (Any)</item>
+				<item id="5">Justice: No law, person or power wil prevent what is right and fair. (Neutral)</item>
+				<item id="6">Reality: This world, and all that exists within it is harsh. (Any)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Before the Betrayer's Legion, I had no home. Now I would do anything to protect it.</item>
+				<item id="2">Trust is hard earnt, easily broken, and once gone is lost forever.</item>
+				<item id="3">Despite the cruel, harsh world we live in, I will always keep my spirits high.</item>
+				<item id="4">Each of us has our strengths and our weaknesses. It's up to me and no one else to be better.</item>
+				<item id="5">I treasure and protect my trusted companions as if they were some rare jewel.</item>
+				<item id="6">I won't make a decision until I know all the information I can know.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I'm always grumpy and sour, often vocally so.</item>
+				<item id="2">Justice is blind, as am I to the arguments of the guilty.</item>
+				<item id="3">Everything is harsh and cruel; why should I be any better?</item>
+				<item id="4">Hatred and vengeance are what push me to search for justice.</item>
+				<item id="5">I use my morals as an excuse to get into fights.</item>
+				<item id="6">Those who stand with the unjust are just as guilty.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Notorious Reputation" type="Background Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION_FEATURE_NOTORIOUS_REPUTATION">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Everyone in Aldebräis has heard of the Betrayer's Legion, and its name carries a certain weight with it. Most people will respect and fear you, and will do their best to accommodate your reasonable requests, though some nobles and criminals may have the opposite reaction. You can also requisition limited supplies from any Betrayer's Legion outpost, such as weapons and armour, food and drink, and beds if available. You must return weapons and armour you use afterwards or be treated as a defector.</p>
+		</description>
+		<sheet alt="Notorious Reputation" />
+	</element>
+</elements>
