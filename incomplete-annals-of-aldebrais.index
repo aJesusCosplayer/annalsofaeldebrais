@@ -4,12 +4,13 @@
 		<name>The Incomplete Annals of Aldebräis</name>
 		<description>The supplement for the Aldebräis setting.</description>
 		<author url="http://www.google.com">Thomas Beazer</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="incomplete-annals-of-aldebrais.index" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebrais.index"/>
     		</update>
   </info>
   <files>
     <file name="source.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/source.xml"/>
     <file name="spells.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/spells.xml"/>
+    <file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-blegion.xml"/>
   </files>
 </index>
