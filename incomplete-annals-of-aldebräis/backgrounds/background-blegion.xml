@@ -69,7 +69,7 @@
 	<element name="Feature: Notorious Reputation" type="Background Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION_FEATURE_NOTORIOUS_REPUTATION">
 		<supports>Background Feature</supports>
 		<description>
-			<p>Everyone in Aldebräis has heard of the Betrayer's Legion, and its name carries a certain weight with it. Most people will respect and fear you, and will do their best to accommodate your reasonable requests, though some nobles and criminals may have the opposite reaction. You can also requisition limited supplies from any Betrayer's Legion outpost, such as weapons and armour, food and drink, and beds if available. You must return weapons and armour you use afterwards or be treated as a defector.</p>
+			<p>Everyone in Aldebräis has heard of the Betrayer's Legion, and its name carries a certain weight with it. Most people will respect and fear you, and will do their best to accommodate your reasonable requests, though some nobles and criminals may have the opposite reaction. You can also requisition limited supplies from any Betrayer's Legion outpost, such as weapons and armour, food and drink, and beds if available. You must return weapons and armour you use afterwards or you may be unceremoniously dismissed.</p>
 		</description>
 		<sheet alt="Notorious Reputation" />
 	</element>
