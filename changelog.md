@@ -5,6 +5,11 @@
   Currently works, spell is implimented and formatted correctly. Am able to add it to characters, character sheets etc. All is good so far!
   Have begun to work on implimenting the Oath of Command for further testing. Incomplete as of now.
 
-14th October 202:
+14th October 2020:
   Added 'Betrayer's Legion' background. Tested and functional, no issues after initial troubleshooting.
   Fixed minor grammar and spelling issues in background-blegion.xml
+
+15th October 2020:
+  Finished the 'Oath of Command' archetype for paladin. Tested for functionality. 
+  Minor bugfixes and updates in .index file.
+  Started work on the Aldebräis Hobgoblin race. Will likely be a WIP for a while as I write the description/s.
