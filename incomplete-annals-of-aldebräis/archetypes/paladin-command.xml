@@ -4,7 +4,7 @@
 		<name>Oath of Command</name>
 		<description>The Oath of the Command archetype for the paladin class, from The (Incomplete) Annals of Aldebräis</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="paladin-command.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/archetypes/paladin-command.xml" />
 		</update>
 	</info>
