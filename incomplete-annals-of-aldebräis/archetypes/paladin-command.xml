@@ -1,1 +1,132 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Oath of Command</name>
+		<description>The Oath of the Command archetype for the paladin class, from The (Incomplete) Annals of Aldebräis</description>
+		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
+		<update version="0.0.1">
+			<file name="paladin-command.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/paladin-command.xml" />
+		</update>
+	</info>
+	<element name="Oath of Command" type="Archetype" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND">
+		<supports>Sacred Oath</supports>
+		<description>
+			<p>The Oath of Command is sworn to loyalty, intelligence and steadfast resilience in the face of all odds, a set of ideals seen within the Red Legion and generally all of the Red Banner. Paladins who follow the Oath of Command all serve Perenaud and are typically seen on the frontlines of small and large conflicts alike, stirring courage in those who would follow them and protecting them from harm. These Paladins are usually Generals within the Red Legion or leaders of some kind, commanding and directing underlings to perform great and/or heroic deeds. They believe glory is worthless if it only resides in the hands of one, but is invaluable in the arms of many, aiming to show others that communal effort leads to widespread success.</p>
+			<h5>Tenets of Command</h5>
+			<p>The Tenets of Command emphasise communal effort and contribution, as well as a universal call to action:</p>
+			<p class="indent"><strong><em>Action:</em></strong> You must act, and by your actions lead others toward shared greatness. It is what we do that defines us, not what we are.</p>
+			<p class="indent"><strong><em>Authority:</em></strong> The wise and the smart must lead us, for their guidance elevates us to shared greatness.</p>
+			<p class="indent"><strong><em>Duty:</em></strong> We all must give if we are to recieve.</p>
+			<p class="indent"><strong><em>Loyalty:</em></strong> Your words only have meaning when supported by your actions. You must show loyalty to your fellows before you can expect them to show loyalty to you.</p>
+			<div element="ID_TBEA_AOA_ARCHETYPE_COMMAND_OATH_SPELLS" />
+			<div element="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY" />
+			<div element="ID_TBEA_AOA_ARCHETYPE_COMMAND_INSPIRING_RESILIENCE" />
+			<div element="ID_TBEA_AOA_ARCHETYPE_COMMAND_EXEMPLAR_OF_THE_MASSES" />
+			<div element="ID_TBEA_AOA_ARCHETYPE_COMMAND_HERALD_OF_VICTORY" />
+		</description>
+		<sheet display="false">
+			<description>You have sworn to bring order to those who support you, on and off the battlefield.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_OATH_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY" level="3" />
+			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_INSPIRING_RESILIENCE" level="7" />
+			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_EXEMPLAR_OF_THE_MASSES" level="15" />
+			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_HERALD_OF_VICTORY" level="20" />
+		</rules>
+	</element>
+	<element name="Oath Spells" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_OATH_SPELLS" >
+		<description>
+			<p>You gain oath spells at the paladin levels listed.</p>
+			<h5>OATH OF JUDGEMENT SPELLS</h5>
+			<table>
+				<thread>
+					<tr><td>Paladin Level</td><td>Spells</td></tr>
+				</thread>
+				<tr><td>3rd</td><td><em>heroism, bless</em></td></tr>
+				<tr><td>5th</td><td><em>calm emotions, prayer of healing</em></td></tr>
+				<tr><td>9th</td><td><em>crusader's mantle, aura of vitality</em></td></tr>
+				<tr><td>13th</td><td><em>aura of life, aura of purity</em></td></tr>
+				<tr><td>17th</td><td><em>circle of power, rary's telepathic bond</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>You gain oath spells at the paladinlevels listed.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLESS" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_PRAYER_OF_HEALING" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CRUSADERS_MANTLE" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_AURA_OF_VITALITY" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_AURA_OF_PURITY" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CIRCLE_OF_POWER" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="17" spellcasting="Paladin" prepared="true" />
+		</rules>
+	</element>
+	<element name="Channel Divinity" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY">
+		<description>
+			<p>When you take your oath at 3rd level, you gain the following two Channel Divinity options.</p>
+			<p class="indent"><b><i>Call to Arms.</i></b> As an action, you can issue a powerful command to your allies using your Channel Divinity. Choose up to two friendly creatures within 20 feet of you that can both see and hear you. Each of those creatures may use their reaction to make a melee attack as if they'd used the Attack action on their turn (counting Extra Attack, Multiattack, etc.).</p>
+			<p class="indent"><b><i>Bolster the Ranks.</i></b> As a bonus action, you can empower your allies who would stand with you using your Channel Divinity. Each friendly creature within 20 feet of you that can both see and hear you gains a +1 bonus to their Armour Class and to all damage they deal with melee or ranged attacks using weapons for a number of rounds equal to your Charisma modifier plus 1 (minimum of 1).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_CALL_TO_ARMS" />
+			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_BOLSTER_THE_RANKS" />
+		</rules>
+	</element>
+	<element name="Channel Divinity: Call to Arms" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_CALL_TO_ARMS">
+		<description>
+			<p>As an action, you can issue a powerful command to your allies using your Channel Divinity. Choose up to two friendly creatures within 20 feet of you that can both see and hear you. Each of those creatures may use their reaction to make a melee attack as if they'd used the Attack action on their turn (counting Extra Attack, Multiattack, etc.).</p>
+		</description>
+		<sheet alt="Call to Arms" action="Action" usage="Channel Divinity">
+			<description>Choose up to two friendly creatures within 20 feet of you that can both see and hear you. Each of those creatures may use their reaction to make a melee attack as if they'd used the Attack action on their turn (counting Extra Attack, Multiattack, etc.).</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Bolster the Ranks" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_BOLSTER_THE_RANKS">
+		<description>
+			<p>As a bonus action, you can empower your allies who would stand with you using your Channel Divinity. Each friendly creature within 20 feet of you that can both see and hear you gains a +1 bonus to their Armour Class and to all damage they deal with melee or ranged attacks using weapons for a number of rounds equal to your Charisma modifier plus 1 (minimum of 1).</p>
+		</description>
+		<sheet alt="Bolster the Ranks" action="Bonus Action" usage="Channel Divinity">
+		<description>Each friendly creature within 20 feet of you that can both see and hear you gains a +1 bonus to their Armour Class and to all damage they deal with melee or ranged attacks using weapons for {{charisma:modifier}} rounds.</description>
+		</sheet>
+	</element>
+	<element name="Inspiring Resilience" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_INSPIRING_RESILIENCE">
+		<description>
+			<p>Starting at 7th level, when you are targeted by but not hit by a melee or ranged attack, you and up to six friendly creatures who can both see and hear you and are within 30 feet of you gain temporary health equal to your Charisma  modifier (minimum of 1). This can stack with itself, but not with other sources of temporary health, and is lost at the end of combat.</p>
+		</description>
+		<sheet>
+			<description>When you are targeted by but not hit by a melee or ranged attack, you and up to six friendly creatures who can both see and hear you and are within 30 feet of you gain {{charisma:modifier}} temporary health. This can stack with itself, but not with other sources of temporary health, and is lost at the end of combat.</description>
+		</sheet>
+	<!-- Rules required? Test -->
+	</element>
+	<element name="Exemplar of the Masses" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_EXEMPLAR_OF_THE_MASSES">
+		<description>
+			<p>Starting at 15th level, you gain a bonus on saving throws equal to the number of friendly creatures within 30 feet of you, up to +3. The maximum increases to +5 at 20th level.</p>
+		</description>
+		<sheet>
+			<description>You gain a bonus on saving throws equal to the number of friendly creature within 30 feet of you, up to +{{eotm:maxbonus}}.</description>
+		</sheet>
+		<rules>
+			<stat name="eotm:maxbonus" value="3">
+			<stat name="eotm:maxbonus" value="5" level="20">
+		</rules>
+	</element>
+	<element name="Herald of Victory" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_HERALD_OF_VICTORY">
+		<description>
+			<p>At 20th level your mere presence on a battlefield inspires your allies to untold heroism. You gain the following benefits:</p>
+			<p class="indent">• You and allies within 30 feet of you may make two melee attacks when making an attack of opportunity using their reaction.</p>
+			<p class="indent">• Whenever you or an ally reduce a hostile creature to 0 health, you may use your reaction to have a friendly creature that can both see and hear you and is within 30 feet of you reroll their initiative. The creature then chooses to keep their current initiative, or use the newly rolled initiative. If this would raise their initiative above the current initiative number, they act after the current creature finishes their turn, then use the new number next turn. This doesn't allow a creature that has already acted this round to take multiple turns - any creature that would be able to act again due to a higher initiative but has already taken a turn is skipped until next round.</p>
+			<p class="indent">  You can use this feature up to once per round.</p>
+		</description>
+		<sheet>
+			<description>
+				<p>You and allies within 30 feet of you may make two melee attacks when making an attack of opportunity using their reaction.</p>
+				<p>Whenever you or an ally reduce a hostile creature to 0 health, you may use your reaction to have a friendly creature that can both see and hear you and is within 30 feet of you reroll their initiative. The creature then chooses to keep their current initiative, or use the newly rolled initiative. If this would raise their initiative above the current initiative number, they act after the current creature finishes their turn, then use the new number next turn. This doesn't allow a creature that has already acted this round to take multiple turns - any creature that would be able to act again due to a higher initiative but has already taken a turn is skipped until next round. You can use this feature up to once per round.</p>
+			</description>
+		</sheet>
+	</element>
+</elements>
