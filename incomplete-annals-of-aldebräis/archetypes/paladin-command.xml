@@ -111,8 +111,8 @@
 			<description>You gain a bonus on saving throws equal to the number of friendly creature within 30 feet of you, up to +{{eotm:maxbonus}}.</description>
 		</sheet>
 		<rules>
-			<stat name="eotm:maxbonus" value="3">
-			<stat name="eotm:maxbonus" value="5" level="20">
+			<stat name="eotm:maxbonus" value="3" />
+			<stat name="eotm:maxbonus" value="5" level="20" />
 		</rules>
 	</element>
 	<element name="Herald of Victory" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_HERALD_OF_VICTORY">
