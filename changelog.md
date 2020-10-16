@@ -13,3 +13,7 @@
   Finished the 'Oath of Command' archetype for paladin. Tested for functionality. 
   Minor bugfixes and updates in .index file.
   Started work on the Aldebräis Hobgoblin race. Will likely be a WIP for a while as I write the description/s.
+
+16th October 2020:
+  Completed all required parts of the Hobgoblin race, descriptions/flavour still very WIP.
+  Still need to test for bugs, will do so as part of the next update.
