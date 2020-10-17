@@ -1,1 +1,100 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wildewood Native</name>
+		<description>The Wildewood Native Background from The (Incomplete) Annals of Aldebräis</description>
+		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
+		<update version="0.0.1">
+			<file name="background-wildewoodnative.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-wildewoodnative.xml" />
+		</update>
+	</info>
+	
+	<element name="Wildewood Native" type="Background" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE">
+		<description>
+			<p><em>"The roots of the Wildewood run deep, deeper than any mountain, any cave or tunnel. It speaks to those who are willing to listen, to those who are willing to learn, to understand. To know the Wildewood is to know the world in all its wild glory."</em></p>
+			<p>To most, the Wildewood is an impassable barrier - a wild, inscrutable force of nature. To a lucky few, it is part of them and their lives, whether they are foresters, alchemists, or simply recluses. You are one of these lucky few, having grown up in and around the Wildewood and learnt to coexist with it, perhaps even tame it a little. While common folk may regard with you with suspicion, or even fear, the things you've learnt and the experiences you've had are more than worth it in your eyes.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies: </strong>Athletics, Survival</li>
+				<li><strong>Tool Proficiencies: </strong>Herbalism Kit, Cook's Utensils</li>
+				<li><strong>Languages: </strong>One of your choice</li>
+				<li><strong>Equipment: </strong>A herbalism kit, cook's utensils, a set of traveller's clothes, a trophy or trinket you found or made in the Wildewood and a belt pouch containing 10 sp</li>
+			</ul>
+			<h5>Origin</h5>
+			<p>The Wildewood is in your blood, and calls to you in a way you can't easily explain. Its influence might be subtle, or perhaps not so much. Think about who you are, and what you've done with your time. You can roll on the following table to determine how you've interacted with the Wildewood, or choose one that best fits your character.</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">d6</td><td>Origin</td></tr>
+				</thead>
+				<tr><td>1</td><td>Forester</td></tr>
+				<tr><td>2</td><td>Alchemist</td></tr>
+				<tr><td>3</td><td>Explorer</td></tr>
+				<tr><td>4</td><td>Recluse or outcast</td></tr>
+				<tr><td>5</td><td>Farmer or botanist</td></tr>
+				<tr><td>6</td><td>Hunter</td></tr>
+			</table>
+			<div element="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE_FEATURE" />
+			<h5>Suggested Characteristics</h5>
+			<p>Those who spend extended periods of time in or around the Wildewood are often thought of as wild and uncouth, but this isn't always the case. You likely have strong connections to your birthplace and the community you were or are a part of, if any. You're also probably 'wild' in some way or another - overly curious about everything, brazen and nearly fearless, reserved and vigilant or otherwise anamalistic.</p>
+		</description>
+		<setters>
+			<set name="short">Athletics, Survival, Herbalism Kit, Cook's Utensils, Language </set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Background Feature" id="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE_FEATURE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
+			<select type="Language" name="Language (Wildewood Native)" supports="Standard||Exotic" />
+			<select name="Origin" type="List">
+				<item id="1">Forester</item>
+				<item id="2">Alchemist</item>
+				<item id="3">Explorer</item>
+				<item id="4">Recluse or outcast</item>
+				<item id="5">Farmer or botanist</item>
+				<item id="6">Hunter</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">I don't sleep well in proper beds. I'd much rather be out watching the stars.</item>
+				<item id="2">I long to visit every land or place I can, and will take any opportunity to travel somewhere new.</item>
+				<item id="3">I don't understand manners or civility. They just get in the way.</item>
+				<item id="4">I learn with my hands, and am generally a very hands-on, physical person.</item>
+				<item id="5">I know how to deal with every creature in the Wildewood, from titanic owlbears to diminuitive fae.</item>
+				<item id="6">I find it much easier to befriend animals than people.</item>
+				<item id="7">My memories and experiences are worth so much more than gold and trinkets could ever be.</item>
+				<item id="8">I live in the moment - yesterday is history, and tomorrow is uncertain, so why worry about them?</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Growth: Nothing, and no-one, is permanent or fixed. (Chaotic)</item>
+				<item id="2">Wilderness: The wild endures, and we endure with it. (Neutral)</item>
+				<item id="3">Respect: People, creatures and the land that cradles them are sacred. (Good)</item>
+				<item id="4">Learning: The answers are always there, if we can but find them. (Any)</item>
+				<item id="5">Harmony: We are all a part of a greater whole, as is all we know. (Good)</item>
+				<item id="6">Beauty: Everything can be made beautiful and wonderous. (Any)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">The wild isn't cruel, it is fair. We should strive to be more like it.</item>
+				<item id="2">Those who despoil the wild need to be taught a lesson; ideally a harsh one.</item>
+				<item id="3">My people will live on, whether through their legend or my blood.</item>
+				<item id="4">Nothing worth doing was ever easy, and it never will be.</item>
+				<item id="5">In my dreams, I see visions of a world stripped of the wild, bound and dying. I will not let this come to pass.</item>
+				<item id="6">A fae creature taught me many things, and now I owe them a debt.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I am quick to get defensive, and often violent.</item>
+				<item id="2">People scare me, and I tend to avoid interacting with them.</item>
+				<item id="3">Every risk is worth taking if you know what you're doing.</item>
+				<item id="4">I enjoy life's treats a tad too much...</item>
+				<item id="5">I'm terrible with money, and often end up in debt.</item>
+				<item id="6">I'm quite blunt and often offend people without meaning to.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Whisper of the Wild" type="Background Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE_FEATURE">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You have spent the better part of your life interacting with the Wildewood, and have learnt much from it. You cannot become lost except by magical means, even in the Wildewood. In addition, you can find edible food and water for yourself and up to five others while within the Wildewood, and have a basic idea of how to deal with most of the threats found within.</p>
+		</description>
+		<sheet alt="Whisper of the Wild" />
+	</element>
+</elements>
