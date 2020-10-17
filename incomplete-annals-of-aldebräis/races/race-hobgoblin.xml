@@ -1,1 +1,142 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hobgoblin</name>
+		<author url="https://google.com">Thomas Beazer</author>
+		<update version="0.0.1">
+			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/races/race-hobgoblin.xml" />
+		</update>
+	</info>
+	<element name="Hobgoblin" type="Race" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN">
+		<description>
+			<p class="flavor">In other times and places across the multiverse, goblinkind has been touched and changed irreversibly by Maglubiyet, destined to serve at his side in Acheron. Within the confines of Aldebräis, however, they are guided by a different hand, one more preoccupied with law and order than war and conquest.</p>
+			<h4>TOUGH AND TRADITIONAL</h4>
+			<p>tempintro</p>
+			<p class="indent">tempdesc</p>
+			<h4>FIERCELY HONOURABLE, EVER VIGILANT</h4>
+			<p>tempexpl</p>
+			<p class="indent">tempexpl2</p>
+			<p class="indent">tempexpl3</p>
+			<h4>WIP</h4>
+			<p>tempexpl</p>
+			<p class="indent">tempexpl2</p>
+			<p class="indent">tempexpl3</p>
+			<h4>Adv Motiativations</h4>
+			<p>tempdesc</p>
+			<h4>HOBGOBLIN NAMES</h4>
+			<p>tempdesc</p>
+			<ul class="unstyled">
+				<li><strong>Male Names: </strong>Haldev, Irov, Nirval, Tavev</li>
+				<li><strong>Female Names: </strong>Ervil, Friva, Kiven, Petra</li>
+				<li><strong>Family Banners: </strong>Brightmind, Everwatch, Strongshield, Tallspire, Wisecraft</li>
+			</ul>
+			<h4>HOBGOBLIN TRAITS</h4>
+			<p>Your hobgoblin character has the following racial traits.</p>
+			<p class="indent"><strong><em>Age. </em></strong>Hobgoblins mature and age at roughly the same rate as a human might, maturing around 17 and living around 65 years.</p>
+			<p class="indent"><strong><em>Alignment. </em></strong>The Red Banner, and thus most hobgoblins, has a strong tendency toward strict, unforgiving law and careful planning. Most hobgoblins are naturally inclined towards Lawful Neutral, and while Lawful Good and Lawful Evil aren't uncommon, non-lawful hobgoblins are.</p>
+			<p class="indent"><strong><em>Size. </em></strong>Hobgoblins typically stand between 5'4" - 5'10" and weigh between 150 - 200 lb. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed. </em></strong>Your base walking speed is 30 feet, and you aren't slowed down by worn armour.</p>
+			<p class="indent"><strong><em>Darkvision. </em></strong>You can see up to 60 feet in darkness as if it was dim light, and 60 feet in dim light as if it was bright light. You can't discern colour in darkness, only shades of grey.</p>
+			<p class="indent"><strong><em>Languages. </em></strong>You can speak, read and write Goblin and Common. In Aldebräis, Goblin is a harsh, direct language that reflects the typical bluntness of its speakers. Due to its wide vocabulary and simplicity, it's one of the most common languages in Khazan and Medona.</p>
+			<p class="indent"><strong><em>Subrace. </em></strong>There are two subraces of Hobgoblin in Aldebräis; Bannerborn and Imperial. Pick one of these subraces.</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="1d6">5'4"</set>
+			<set name="weight" modifier="3d6">150lb</set>
+		</setters>
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_GOBLIN" />
+			<grant type="Racial Trait" id="ID_TBEA_AOA_RACE_HOBGOBLIN_SUBRACE" />
+		</rules>
+		<element name="Hobgoblin Subrace" type="Racial Trait" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_SUBRACE">
+			<description>
+				<p>There are two subraces of Hobgoblin in Aldebräis; Bannerborn and Imperial. Pick one of these subraces.</p>
+			</description>
+			<sheet display="false"/>
+			<rules>
+				<select type="Sub Race" name="Hobgoblin Subrace" supports="Hobgoblin" />
+			</rules>
+		</element>
+		<element name="Bannerborn" type="Sub Race" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_BANNERBORN">
+			<supports>Hobgoblin</supports>
+			<description>
+			<p>The Bannerborn, or Banveirum, are the trained soldiers who make up the Red Legion, the army of the Red Banner, and are often born from military or peacekeeping Banners.</p>
+			<p class="indent"><strong><em>Ability Score Increases. </em></strong>Your Constitution score increases by 2 and your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Bannerborn Training. </em></strong>You are proficient with one martial weapon of your choice (typically the shortsword), shields and medium armour.</p>
+			<p class="indent"><strong><em>Legion's Strength. </em></strong>When a creature attacks you and you're aware of the attack, you get a +1 bonus to your AC if at least two friendly creatures are within 10 feet of you. This increases to a +2 bonus if three or more friendly creatures are within 10 feet of you.</p>
+			</description>
+			<sheet display="false"/>
+			<rules>
+				<stat name="constitution" value="2" />
+				<stat name="intelligence" value="1" />
+				<grant type="Racial Trait" id="ID_TBEA_AOA_RACE_HOBGOBLIN_BANNERBORN_TRAINING" />
+				<grant type="Racial Trait" id="ID_TBEA_AOA_RACE_HOBGOBLIN_BANNERBORN_LEGIONSTR" />
+			</rules>
+		</element>
+		<element name="Bannerborn Training" type="Racial Trait" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_BANNERBORN_TRAINING">
+			<description>
+				<p>You are proficient with one martial weapon of your choice (typically the shortsword), shields and medium armour.</p>
+			</description>
+			<sheet display="false">
+				<description>You are proficient with one martial weapon of your choice (typically the shortsword), shields and medium armour.</description>
+			</sheet>
+			<rules>
+				<select type="Proficiency" name="Bannerborn Training" supports="Weapon,Martial" number="1" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			</rules>
+		</element>
+		<element name="Legion's Strength" type="Racial Trait" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_BANNERBORN_LEGIONSTR">
+			<description>
+				<p>When a creature attacks you and you're aware of the attack, you get a +1 bonus to your AC if at least two friendly creatures are within 10 feet of you. This increases to a +2 bonus if three or more friendly creatures are within 10 feet of you.</p>
+			</description>
+			<sheet>
+				<description>When a creature attacks you and you're aware of the attack, you get a +1 bonus to your AC if at least two friendly creatures are within 10 feet of you. This increases to a +2 bonus if three or more friendly creatures are within 10 feet of you.</description>
+			</sheet>
+		</element>
+		<element name="Imperial" type="Sub Race" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_IMPERIAL">
+			<supports>Hobgoblin</supports>
+			<description>
+			<p>The Inviritun, or Imperials as they're more commonly known, are the further trained and educated crafters, builders and organisers of the Red Banner.</p>
+			<p class="indent"><strong><em>Ability Score Increases. </em></strong>Your Constitution, Intelligence and Charisma scores all increase by 1.</p>
+			<p class="indent"><strong><em>Imperial Training. </em></strong>You have proficiency in the Intimidation and Investigation skills.</p>
+			<p class="indent"><strong><em>Quick-witted. </em></strong>You gain a bonus to your initiative rolls equal to your Intelligence modifier.</p>
+			</description>
+			<sheet display="false"/>
+			<rules>
+				<stat name="constitution" value="1" />
+				<stat name="intelligence" value="1" />
+				<stat name="charisma" value="1" />
+				<grant type="Racial Trait" id="ID_TBEA_AOA_RACE_HOBGOBLIN_IMPERIAL_TRAINING" />
+				<grant type="Racial Trait" id="ID_TBEA_AOA_RACE_HOBGOBLIN_IMPERIAL_QUICKWIT" />
+			</rules>
+		</element>
+		<element name="Imperial Training" type="Racial Trait" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_IMPERIAL_TRAINING">
+			<description>
+				<p>You have proficiency in the Intimidation and Investigation skills.</p>
+			</description>
+			<sheet display="false">
+				<description>You have proficiency in the Intimidation and Investigation skills.</description>
+			</sheet>
+			<rules>
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			</rules>
+		</element>
+		<element name="Quick-witted" type="Racial Trait" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_IMPERIAL_QUICKWIT">
+			<description>
+				<p>You gain a bonus to your initiative rolls equal to your Intelligence modifier.</p>
+			</description>
+			<sheet>
+				<description>You gain a +{{intelligence:modifier}} bonus to your initiative.</description>
+			</sheet>
+			<rules>
+				<stat name="initiative" value="intelligence:modifier" />
+			</rules>
+		</element>
+	</element>
+</elements>
