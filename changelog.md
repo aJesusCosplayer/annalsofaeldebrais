@@ -17,3 +17,8 @@
 16th October 2020:
   Completed all required parts of the Hobgoblin race, descriptions/flavour still very WIP.
   Still need to test for bugs, will do so as part of the next update.
+  
+17th October 2020:
+  Completed the 'Wildewood Native' background. Tested and functional, no issues. 
+  Completeed the 'Honourable' feat. Tested and functional, no issues.
+  Updated ~4 files with a new author url within the <info> section.
