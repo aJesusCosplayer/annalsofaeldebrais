@@ -3,8 +3,8 @@
 	<info>
 		<name>Feats</name>
 		<description>Feats from The (Incomplete) Annals of Aldebräis.</description>
-		<author url="https://google.com">Thomas Beazer</author>
-		<update version="0.0.1">
+		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
+		<update version="0.0.2">
 			<file name="feats-full.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/feats-full.xml" />
 		</update>
 	</info>
