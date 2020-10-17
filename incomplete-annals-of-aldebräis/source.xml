@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="sources.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/source.xml" />
 		</update>
 	</info>
@@ -15,7 +15,7 @@
 			<set name="abbreviation">AOA</set>
 			<set name="url"></set>
 			<set name="image">https://i.pinimg.com/originals/f7/fa/fa/f7fafae1c5958bf5a64d3ce121235aff.jpg</set>
-			<set name="author" abbreviation="TBEA" url="https://www.google.com/">Thomas Beazer</set>
+			<set name="author" abbreviation="TBEA" url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
 			<set name="release">20201013</set>
