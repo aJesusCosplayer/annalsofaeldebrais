@@ -3,7 +3,7 @@
 	<info>
 		<name>Hobgoblin</name>
 		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/races/race-hobgoblin.xml" />
 		</update>
 	</info>
@@ -58,6 +58,15 @@
 				<p>There are two subraces of Hobgoblin in Aldebräis; Bannerborn and Imperial. Pick one of these subraces.</p>
 			</description>
 			<sheet display="false"/>
+			<rules>
+				<select type="Sub Race" name="Hobgoblin Subrace" supports="Hobgoblin" />
+			</rules>
+		</element>
+		<element name="Hobgoblin Subrace" type="Racial Trait" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_RACE_HOBGOBLIN_SUBRACE">
+			<description>
+				<p>There are two subraces of Hobgoblin in Aldebräis; Bannerborn and Imperial. Pick one of these subraces.</p>
+			</description>
+			<sheet display="false" />
 			<rules>
 				<select type="Sub Race" name="Hobgoblin Subrace" supports="Hobgoblin" />
 			</rules>
