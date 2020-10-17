@@ -22,3 +22,5 @@
   Completed the 'Wildewood Native' background. Tested and functional, no issues. 
   Completeed the 'Honourable' feat. Tested and functional, no issues.
   Updated ~4 files with a new author url within the <info> section.
+  Added a version of the 'Hobgoblin' race missing majority of the lore/flavour for testing purposes (in ver 0.0.9). 
+  Started work on the Skjalberne race. Testing for issues with the Large size.
