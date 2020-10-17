@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Hobgoblin</name>
-		<author url="https://google.com">Thomas Beazer</author>
+		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
 		<update version="0.0.1">
 			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/races/race-hobgoblin.xml" />
 		</update>
