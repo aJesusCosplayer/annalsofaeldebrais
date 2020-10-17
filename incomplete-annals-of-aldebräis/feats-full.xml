@@ -1,1 +1,26 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feats</name>
+		<description>Feats from The (Incomplete) Annals of Aldebräis.</description>
+		<author url="https://google.com">Thomas Beazer</author>
+		<update version="0.0.1">
+			<file name="feats-full.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/feats-full.xml" />
+		</update>
+	</info>
+	<element name="Honourable" type="Feat" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_FEAT_HONOURABLE">
+		<prerequisite>Any Lawful Alignment</prerequisite>
+		<description>
+		<p><em>Prerequisite: Any Lawful Alignment</em></p>
+			<p>You have shown yourself to be true to your word, honest and reliable. You gain the following benefits:</p>
+			<ul>
+				<li>Whenever you gain 2 or more points of Honour as a reward, you gain an additional 1 point of Honour.</li>
+				<li>You gain Certainty X (where X is 15 or your Honour, whichever is lower) on Intimidation and Persuasion skill checks where your Honour is involved. For example, Intimidation checks where you promise to kill someone or expose a dire secret they're trying to hide might carry more weight if your word does, as might Persuasion checks to convince someone to reveal more information about a job or provide a down payment before the job is complete. If you're unsure if this applies, discuss it with your GM.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Whenever you gain 2 or more points of Honour as a reward, you gain an additional 1 point of Honour. You gain Certainty X (where X is 15 or your Honour, whichever is lower) on Intimidation and Persuasion skill checks where your Honour is involved.</description>
+		</sheet>
+	</element>
+	
+</elements>
