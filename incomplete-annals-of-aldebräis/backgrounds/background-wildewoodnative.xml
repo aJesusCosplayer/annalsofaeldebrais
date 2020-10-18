@@ -4,7 +4,7 @@
 		<name>Wildewood Native</name>
 		<description>The Wildewood Native Background from The (Incomplete) Annals of Aldebräis</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="background-wildewoodnative.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-wildewoodnative.xml" />
 		</update>
 	</info>
@@ -59,7 +59,7 @@
 				<item id="2">I long to visit every land or place I can, and will take any opportunity to travel somewhere new.</item>
 				<item id="3">I don't understand manners or civility. They just get in the way.</item>
 				<item id="4">I learn with my hands, and am generally a very hands-on, physical person.</item>
-				<item id="5">I know how to deal with every creature in the Wildewood, from titanic owlbears to diminuitive fae.</item>
+				<item id="5">I know how to deal with every creature in the Wildewood, from titanic owlbears to diminuitive fey.</item>
 				<item id="6">I find it much easier to befriend animals than people.</item>
 				<item id="7">My memories and experiences are worth so much more than gold and trinkets could ever be.</item>
 				<item id="8">I live in the moment - yesterday is history, and tomorrow is uncertain, so why worry about them?</item>
@@ -78,7 +78,7 @@
 				<item id="3">My people will live on, whether through their legend or my blood.</item>
 				<item id="4">Nothing worth doing was ever easy, and it never will be.</item>
 				<item id="5">In my dreams, I see visions of a world stripped of the wild, bound and dying. I will not let this come to pass.</item>
-				<item id="6">A fae creature taught me many things, and now I owe them a debt.</item>
+				<item id="6">A fey creature taught me many things, and now I owe them a debt.</item>
 			</select>
 			<select name="Flaw" type="List">
 				<item id="1">I am quick to get defensive, and often violent.</item>
