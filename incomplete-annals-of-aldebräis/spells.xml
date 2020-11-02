@@ -10,6 +10,7 @@
   <element name="Storm Strike" type="Spell" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_SPELL_STORM_STRIKE">
     <supports>Sorcerer, Paladin, Cleric, Druid</supports>
     <description>
+      <p class="flavor">Fast as lightning, mighty as thunder, and wild as the storm that brings them.</p>
       <p>Choose a space within range, which you then leap to as you are filled with thunderous energy. You must be able to leap at least five foot high to use this spell; if you can't the spell fails. As you land you strike the earth, unleashing a blast that topples any who would dare stand against you. Each creature within a 15-foot sphere of the point you land must make a Strength saving throw. A creature takes 4d4 lightning damage, 4d4 thunder damage and is knocked prone on a failed save, or half as much damage and isn't knocked prone on a successful one. Creatures that are flying or that fail the save by 5 or more are also stunned for 1 round.</p>
       <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or higher, the lightning and thunder damage increase by 1d4 for each slot level above 5th.</p>
     </description>
