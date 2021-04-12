@@ -24,3 +24,6 @@
   Updated ~4 files with a new author url within the <info> section.
   Added a version of the 'Hobgoblin' race missing majority of the lore/flavour for testing purposes (in ver 0.0.9). Issue with selecting subraces, currently unable to find the cause of it?? Will check with a fresh set of eyes another day.
   Started work on the Skjalberne race. Testing for issues with the Large size.
+
+13th April 2021:
+  Began adding all the Hunter's Gear and other items from the setting. 
