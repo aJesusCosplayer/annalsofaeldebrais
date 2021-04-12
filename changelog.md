@@ -27,3 +27,4 @@
 
 13th April 2021:
   Began adding all the Hunter's Gear and other items from the setting. 
+  Realised I accidentally made two sources (as I mispelled the name in a lot of the source files, great...). Will fix asap.
