@@ -4,7 +4,7 @@
 		<name>Hunter's Gear</name>
 		<description>Hunter's Gear, Potions and Supplies from the (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/items-huntersgear.xml" />
 		</update>
 	</info>
@@ -67,6 +67,12 @@
 		<description>
 		<p>A mix of stiff alcohol, brollblöm and a variety of powdered chemicals that tastes like mint and gravel. Heals 1d6 + 4 Hit Points, staunches bleeding and cures any common poison (except Drunk), but for each dose taken beyond the first within 4 hours the user must make a DC 14 Constitution save. On a failed save they receive a level of Drunk and have disadvantage on their next Constitution save.</p>
 		</description>
+		<setters>
+			<set name="category"> Adventuring Gear</set>
+			<set name="cost" currency="sp">3</set>
+			<set name="weight" lb="1/2">1/2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
 	</element>
 	<element name="Snow Lily Serum" type="Item" source=" The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_SNOWLILYSERUM">
 		<description>
