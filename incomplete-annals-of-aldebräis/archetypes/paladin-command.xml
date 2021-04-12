@@ -2,13 +2,13 @@
 <elements>
 	<info>
 		<name>Oath of Command</name>
-		<description>The Oath of the Command archetype for the paladin class, from The (Incomplete) Annals of Aldebräis</description>
-		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
+		<description>The Oath of the Command archetype for the paladin class, from The (Incomplete) Annals of Aeldebräis</description>
+		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
 		<update version="0.0.3">
-			<file name="paladin-command.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/archetypes/paladin-command.xml" />
+			<file name="paladin-command.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/archetypes/paladin-command.xml" />
 		</update>
 	</info>
-	<element name="Oath of Command" type="Archetype" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND">
+	<element name="Oath of Command" type="Archetype" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND">
 		<supports>Sacred Oath</supports>
 		<description>
 			<p>The Oath of Command is sworn to loyalty, intelligence and steadfast resilience in the face of all odds, a set of ideals seen within the Red Legion and generally all of the Red Banner. Paladins who follow the Oath of Command all serve Perenaud and are typically seen on the frontlines of small and large conflicts alike, stirring courage in those who would follow them and protecting them from harm. These Paladins are usually Generals within the Red Legion or leaders of some kind, commanding and directing underlings to perform great and/or heroic deeds. They believe glory is worthless if it only resides in the hands of one, but is invaluable in the arms of many, aiming to show others that communal effort leads to widespread success.</p>
@@ -35,7 +35,7 @@
 			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_HERALD_OF_VICTORY" level="20" />
 		</rules>
 	</element>
-	<element name="Oath Spells" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_OATH_SPELLS" >
+	<element name="Oath Spells" type="Archetype Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_OATH_SPELLS" >
 		<description>
 			<p>You gain oath spells at the paladin levels listed.</p>
 			<h5>OATH OF JUDGEMENT SPELLS</h5>
@@ -51,7 +51,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>You gain oath spells at the paladinlevels listed.</description>
+			<description>You gain oath spells at the paladin levels listed.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" level="3" spellcasting="Paladin" prepared="true" />
@@ -66,7 +66,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="17" spellcasting="Paladin" prepared="true" />
 		</rules>
 	</element>
-	<element name="Channel Divinity" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY">
+	<element name="Channel Divinity" type="Archetype Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY">
 		<description>
 			<p>When you take your oath at 3rd level, you gain the following two Channel Divinity options.</p>
 			<p class="indent"><b><i>Call to Arms.</i></b> As an action, you can issue a powerful command to your allies using your Channel Divinity. Choose up to two friendly creatures within 20 feet of you that can both see and hear you. Each of those creatures may use their reaction to make a melee attack as if they'd used the Attack action on their turn (counting Extra Attack, Multiattack, etc.).</p>
@@ -78,7 +78,7 @@
 			<grant type="Archetype Feature" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_BOLSTER_THE_RANKS" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Call to Arms" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_CALL_TO_ARMS">
+	<element name="Channel Divinity: Call to Arms" type="Archetype Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_CALL_TO_ARMS">
 		<description>
 			<p>As an action, you can issue a powerful command to your allies using your Channel Divinity. Choose up to two friendly creatures within 20 feet of you that can both see and hear you. Each of those creatures may use their reaction to make a melee attack as if they'd used the Attack action on their turn (counting Extra Attack, Multiattack, etc.).</p>
 		</description>
@@ -86,7 +86,7 @@
 			<description>Choose up to two friendly creatures within 20 feet of you that can both see and hear you. Each of those creatures may use their reaction to make a melee attack as if they'd used the Attack action on their turn (counting Extra Attack, Multiattack, etc.).</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Bolster the Ranks" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_BOLSTER_THE_RANKS">
+	<element name="Channel Divinity: Bolster the Ranks" type="Archetype Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_CHANNEL_DIVINITY_BOLSTER_THE_RANKS">
 		<description>
 			<p>As a bonus action, you can empower your allies who would stand with you using your Channel Divinity. Each friendly creature within 20 feet of you that can both see and hear you gains a +1 bonus to their Armour Class and to all damage they deal with melee or ranged attacks using weapons for a number of rounds equal to your Charisma modifier plus 1 (minimum of 1).</p>
 		</description>
@@ -94,7 +94,7 @@
 		<description>Each friendly creature within 20 feet of you that can both see and hear you gains a +1 bonus to their Armour Class and to all damage they deal with melee or ranged attacks using weapons for {{charisma:modifier}} rounds.</description>
 		</sheet>
 	</element>
-	<element name="Inspiring Resilience" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_INSPIRING_RESILIENCE">
+	<element name="Inspiring Resilience" type="Archetype Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_INSPIRING_RESILIENCE">
 		<description>
 			<p>Starting at 7th level, when you are targeted by but not hit by a melee or ranged attack, you and up to six friendly creatures who can both see and hear you and are within 30 feet of you gain temporary health equal to your Charisma  modifier (minimum of 1). This can stack with itself, but not with other sources of temporary health, and is lost at the end of combat.</p>
 		</description>
@@ -103,7 +103,7 @@
 		</sheet>
 	<!-- Rules required? Test -->
 	</element>
-	<element name="Exemplar of the Masses" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_EXEMPLAR_OF_THE_MASSES">
+	<element name="Exemplar of the Masses" type="Archetype Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_EXEMPLAR_OF_THE_MASSES">
 		<description>
 			<p>Starting at 15th level, you gain a bonus on saving throws equal to the number of friendly creatures within 30 feet of you, up to +3. The maximum increases to +5 at 20th level.</p>
 		</description>
@@ -115,7 +115,7 @@
 			<stat name="eotm:maxbonus" value="5" level="20" />
 		</rules>
 	</element>
-	<element name="Herald of Victory" type="Archetype Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_HERALD_OF_VICTORY">
+	<element name="Herald of Victory" type="Archetype Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ARCHETYPE_COMMAND_HERALD_OF_VICTORY">
 		<description>
 			<p>At 20th level your mere presence on a battlefield inspires your allies to untold heroism. You gain the following benefits:</p>
 			<p class="indent">• You and allies within 30 feet of you may make two melee attacks when making an attack of opportunity using their reaction.</p>
