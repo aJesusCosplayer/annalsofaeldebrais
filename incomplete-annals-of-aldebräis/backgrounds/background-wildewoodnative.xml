@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Wildewood Native</name>
-		<description>The Wildewood Native Background from The (Incomplete) Annals of Aldebräis</description>
-		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
-		<update version="0.0.2">
-			<file name="background-wildewoodnative.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-wildewoodnative.xml" />
+		<description>The Wildewood Native Background from The (Incomplete) Annals of Aeldebräis</description>
+		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
+		<update version="0.0.3">
+			<file name="background-wildewoodnative.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/backgrounds/background-wildewoodnative.xml" />
 		</update>
 	</info>
 	
-	<element name="Wildewood Native" type="Background" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE">
+	<element name="Wildewood Native" type="Background" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE">
 		<description>
 			<p><em>"The roots of the Wildewood run deep, deeper than any mountain, any cave or tunnel. It speaks to those who are willing to listen, to those who are willing to learn, to understand. To know the Wildewood is to know the world in all its wild glory."</em></p>
 			<p>To most, the Wildewood is an impassable barrier - a wild, inscrutable force of nature. To a lucky few, it is part of them and their lives, whether they are foresters, alchemists, or simply recluses. You are one of these lucky few, having grown up in and around the Wildewood and learnt to coexist with it, perhaps even tame it a little. While common folk may regard with you with suspicion, or even fear, the things you've learnt and the experiences you've had are more than worth it in your eyes.</p>
@@ -90,7 +90,7 @@
 			</select>
 		</rules>
 	</element>
-	<element name="Feature: Whisper of the Wild" type="Background Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE_FEATURE">
+	<element name="Feature: Whisper of the Wild" type="Background Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_BACKGROUND_WILDEWOODNATIVE_FEATURE">
 		<supports>Background Feature</supports>
 		<description>
 			<p>You have spent the better part of your life interacting with the Wildewood, and have learnt much from it. You cannot become lost except by magical means, even in the Wildewood. In addition, you can find edible food and water for yourself and up to five others while within the Wildewood, and have a basic idea of how to deal with most of the threats found within.</p>
