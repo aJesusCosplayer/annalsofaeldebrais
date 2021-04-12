@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Betrayer's Legion</name>
-		<description>The Betrayer's Legion Background from The (Incomplete) Annals of Aldebräis</description>
-		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
-		<update version="0.0.5">
-			<file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/backgrounds/background-blegion.xml" />
+		<description>The Betrayer's Legion Background from The (Incomplete) Annals of Aeldebräis</description>
+		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
+		<update version="0.0.6">
+			<file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/backgrounds/background-blegion.xml" />
 		</update>
 	</info>
 	
-	<element name="Betrayer's Legion" type="Background" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION">
+	<element name="Betrayer's Legion" type="Background" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION">
 		<description>
 			<p>After the Banner War, thousands of people were left displaced or stranded in places they didn't know. Some people have adapted to this change, and some, like you, have found order in the post-war chaos through one organisation or another. You've served in the Betrayer's Legion, an independent military organisation based in Merteviv who pursue justice at any and all costs, and your time in its ranks has left its mark on you. Now, for one reason or another, you've set out on your own path.</p>
 			<ul class="unstyled">
@@ -66,10 +66,10 @@
 			</select>
 		</rules>
 	</element>
-	<element name="Feature: Notorious Reputation" type="Background Feature" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION_FEATURE_NOTORIOUS_REPUTATION">
+	<element name="Feature: Notorious Reputation" type="Background Feature" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_BACKGROUND_BLEGION_FEATURE_NOTORIOUS_REPUTATION">
 		<supports>Background Feature</supports>
 		<description>
-			<p>Everyone in Aldebräis has heard of the Betrayer's Legion, and its name carries a certain weight with it. Most people will respect and fear you, and will do their best to accommodate your reasonable requests, though some nobles and criminals may have the opposite reaction. You can also requisition limited supplies from any Betrayer's Legion outpost, such as weapons and armour, food and drink, and beds if available. You must return weapons and armour you use afterwards or you may be unceremoniously dismissed.</p>
+			<p>Everyone in Aeldebräis has heard of the Betrayer's Legion, and its name carries a certain weight with it. Most people will respect and fear you, and will do their best to accommodate your reasonable requests, though some nobles and criminals may have the opposite reaction. You can also requisition limited supplies from any Betrayer's Legion outpost, such as weapons and armour, food and drink, and beds if available. You must return weapons and armour you use afterwards or you may be unceremoniously dismissed.</p>
 		</description>
 		<sheet alt="Notorious Reputation" />
 	</element>
