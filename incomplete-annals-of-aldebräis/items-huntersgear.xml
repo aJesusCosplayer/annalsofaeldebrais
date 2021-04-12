@@ -1,1 +1,22 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hunter's Gear</name>
+		<description>Hunter's Gear, Potions and Supplies from the (Incomplete) Annals of Aeldebräis.</description>
+		<author url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</author>
+		<update version="0.0.1">
+			<file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebr%C3%A4is/items-huntersgear.xml" />
+		</update>
+	</info>
+	<element name="Dried Wakelef" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_DRIEDWAKELEF">
+		<description>
+			<p>Dried, bitter smelling seed pods. Can be soaked in hot water to create up to 3 litres of Wakelef Brew, a potent stimulant. Consuming a serving of Wakelef Brew grants a +2 bonus to Initiative and a +1 bonus to Dexterity saving throws for the next 6 hours.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">3</set>
+			<set name="weight" lb="1/4">1/4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>
