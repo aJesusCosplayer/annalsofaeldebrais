@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/source.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/source.xml" />
 		</update>
 	</info>
-	<element name="The (Incomplete) Annals of Aldebräis" type="Source" source="Homebrew" id="ID_TBEA_SOURCE_ANNALS_ALDEBRAIS">
+	<element name="The (Incomplete) Annals of Aeldebräis" type="Source" source="Homebrew" id="ID_TBEA_SOURCE_ANNALS_AELDEBRAIS">
 		<description>
 			<![CDATA[<p><strong>A companion book for games played in the world of Aeldebräis.</strong></p>
 				<p>This supplement contains a variety of new content to be used in Dungeons & Dragons 5th Edition games, including new class options, creatures, deities, feats, items, magical items and artifacts, races, spells and more! Please note that it's a work in progress, and the content is subject to change.</p>
@@ -15,7 +15,7 @@
 			<set name="abbreviation">AOA</set>
 			<set name="url"></set>
 			<set name="image">https://i.pinimg.com/originals/f7/fa/fa/f7fafae1c5958bf5a64d3ce121235aff.jpg</set>
-			<set name="author" abbreviation="TBEA" url="https://github.com/aJesusCosplayer/annalsofaldebrais">Thomas Beazer</set>
+			<set name="author" abbreviation="TBEA" url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
 			<set name="release">20201013</set>
