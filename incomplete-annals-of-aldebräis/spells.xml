@@ -3,11 +3,11 @@
   <info>
     <name>Spells</name>
     <update version="0.0.2">
-      <file name="spells.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaldebrais/main/incomplete-annals-of-aldebräis/spells.xml" />
+      <file name="spells.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebräis/spells.xml" />
     </update>
   </info>
 
-  <element name="Storm Strike" type="Spell" source="The (Incomplete) Annals of Aldebräis" id="ID_TBEA_SPELL_STORM_STRIKE">
+  <element name="Storm Strike" type="Spell" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_SPELL_STORM_STRIKE">
     <supports>Sorcerer, Paladin, Cleric, Druid</supports>
     <description>
       <p class="flavor">Fast as lightning, mighty as thunder, and wild as the storm that brings them.</p>
