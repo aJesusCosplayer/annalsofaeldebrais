@@ -182,6 +182,7 @@
 		<description>
 			<p>This specialised weapon can deal slashing or piercing damage, can be used as a handaxe, pickaxe or shovel as needed, and takes one more level of damage to degrade or break.</p>
 			<div element="ID_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL" />
+			<div element="ID_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SILVERED" />
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
