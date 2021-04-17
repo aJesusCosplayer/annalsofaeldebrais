@@ -4,7 +4,7 @@
 		<name>The Incomplete Annals of Aeldebräis</name>
 		<description>The supplement for the Aeldebräis setting.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="incomplete-annals-of-aeldebrais.index" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebrais.index"/>
     		</update>
   </info>
