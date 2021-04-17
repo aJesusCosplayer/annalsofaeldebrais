@@ -4,7 +4,7 @@
 		<name>Deities</name>
 		<description>Deities from The (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.2>
+		<update version="0.0.2">
 			<file name="deities.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/deities.xml" />
 		</update>
 	</info>
