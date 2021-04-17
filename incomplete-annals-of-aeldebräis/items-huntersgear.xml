@@ -173,6 +173,7 @@
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d6</set>
+			<set name="versatile">1d8</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
 		</setters>
 	</element>
@@ -190,6 +191,7 @@
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d6</set>
+			<set name="versatile">1d8</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
 		</setters>
 	</element>
