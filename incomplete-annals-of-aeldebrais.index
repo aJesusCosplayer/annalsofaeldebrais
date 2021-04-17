@@ -4,18 +4,19 @@
 		<name>The Incomplete Annals of Aeldebräis</name>
 		<description>The supplement for the Aeldebräis setting.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.1.8">
+		<update version="0.1.9">
 			<file name="incomplete-annals-of-aeldebrais.index" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebrais.index"/>
     		</update>
   </info>
   <files>
-    <file name="source.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/source.xml"/>
-    <file name="spells.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/spells.xml"/>
+    <file name="source.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/source.xml" />
+    <file name="spells.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/spells.xml" />
     <file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/races/race-hobgoblin.xml" />
-    <file name="background-wildewoodnative.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/backgrounds/background-wildewoodnative.xml"/>
-    <file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/backgrounds/background-blegion.xml"/>
-    <file name="paladin-command.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/archetypes/paladin-command.xml"/>
-    <file name="feats-full.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/feats-full.xml"/>
-    <file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/items-huntersgear.xml"/>
+    <file name="background-wildewoodnative.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/backgrounds/background-wildewoodnative.xml" />
+    <file name="background-blegion.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/backgrounds/background-blegion.xml" />
+    <file name="paladin-command.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/archetypes/paladin-command.xml" />
+    <file name="feats-full.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/feats-full.xml" />
+    <file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/items-huntersgear.xml" />
+    <file name="deities.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/deities.xml />
   </files>
 </index>
