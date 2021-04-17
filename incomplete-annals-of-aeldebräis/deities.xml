@@ -4,8 +4,217 @@
 		<name>Deities</name>
 		<description>Deities from The (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.1">
+		<update version="0.0.2>
 			<file name="deities.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/deities.xml" />
 		</update>
 	</info>
+	
+	<element name="An'nuel" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_ANNUEL">
+		<description>
+			<p class="flavor">God of change and truth. Also known as The Wanderer.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">TN</set>
+			<set name="domains">Change, Hope, Justice</set>
+			<set name="symbol">Ancient symbol depicting broken wings</set>
+			<set name="gender">unknown</set>
+		</setters>
+		<sheet>
+			<description>God of change and truth.</description>
+		</sheet>
+	</element>
+	
+	<element name="Bäsiten" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_BASITEN">
+		<description>
+			<p class="flavor">God of nature and beasts. Also known as The Huntmaster.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Beast, Glory, Nature</set>
+			<set name="symbol">Crossed bear's paw and spear</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>God of nature and beasts.</description>
+		</sheet>
+	</element>
+	
+	<element name="Erudea" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_ERUDEA">
+		<description>
+			<p class="flavor">Goddess of life and healing. Also known as The Heartsmith.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">TN</set>
+			<set name="domains">Earth, Healing, Life</set>
+			<set name="symbol">Circle of interlocking heart symbols</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of life and healing.</description>
+		</sheet>
+	</element>
+	
+	<element name="Heiyenhal" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_HEIYENHAL">
+		<description>
+			<p class="flavor">Goddess of protection and the forge. Also known as The Stonemother.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">LG</set>
+			<set name="domains">Forge, Order, Protection</set>
+			<set name="symbol">Mountain piercing the clouds</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of protection and the forge.</description>
+		</sheet>
+	</element>
+	
+	<element name="Ikaerlyth" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_IKAERLYTH">
+		<description>
+			<p class="flavor">Goddess of winter and darkness. Also known as The Winter Wind.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">NE</set>
+			<set name="domains">Cold, Darkness, Winter</set>
+			<set name="symbol">Three snowflakes in a V formation</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of winter and darkness.</description>
+		</sheet>
+	</element>
+	
+	<element name="Korküllien" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_KORKULLIEN">
+		<description>
+			<p class="flavor">Goddess of the sea and sky. Also known as The Stormwaker.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Sea, Sky, Tempest</set>
+			<set name="symbol">Sea and sky with a lightning bolt connecting the two</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of sea and sky.</description>
+		</sheet>
+	</element>
+	
+	<element name="Luymena" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_LUYMENA">
+		<description>
+			<p class="flavor">Goddess of sun and moon. Also known as The Lightkeeper.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">NG</set>
+			<set name="domains">Fire, Light, Moon</set>
+			<set name="symbol">Torch topped with a firey sun or moon</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of sun and moon.</description>
+		</sheet>
+	</element>
+	
+	<element name="Mirashil" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_MIRASHIL">
+		<description>
+			<p class="flavor">Goddess of magic and languages. Also known as The Librarian.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">NG</set>
+			<set name="domains">Arcana, Dream, Knowledge</set>
+			<set name="symbol">Open book filled with words in all languages</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of magic and languages.</description>
+		</sheet>
+	</element>
+	
+	<element name="Perenaud" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_PERENAUD">
+		<description>
+			<p class="flavor">God of death and law. Also known as The Judge.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Death, Law, Retribution</set>
+			<set name="symbol">Black scales held by a white hand</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>God of death and law.</description>
+		</sheet>
+	</element>
+	
+	<element name="Revnägresh" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_REVNAGRESH">
+		<description>
+			<p class="flavor">God of madness and suffering. Also known as The Lowborn.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">CE</set>
+			<set name="domains">Illusion, Madness, Suffering</set>
+			<set name="symbol">Mirror surrounded with grinning teeth</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>God of madness and suffering.</description>
+		</sheet>
+	</element>
+	
+	<element name="Syllabril" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_SYLLABRIL">
+		<description>
+			<p class="flavor">Goddess of chaos and creation. Also known as The Firestarter.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">CN</set>
+			<set name="domains">Chaos, Creation, Freedom</set>
+			<set name="symbol">Dark orb filled with stars</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>Goddess of chaos and creation.</description>
+		</sheet>
+	</element>
+	
+	<element name="Tanamëda" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_TANAMEDA">
+		<description>
+			<p class="flavor">God of luck and revelry. Also known as The Reveller.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">CG</set>
+			<set name="domains">Luck, Pleasure, Trickery</set>
+			<set name="symbol">A pair of dice with musical notes on the faces</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>God of luck and revelry.</description>
+		</sheet>
+	</element>
+	
+	<element name="Viscagog" type="Deity" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_DEITY_VISCAGOG">
+		<description>
+			<p class="flavor">God of strength and war. Also known as The Challenger.</p>
+		</description>
+		<setters>
+			<set name="setting">Aeldebräis</set>
+			<set name="alignment">LE</set>
+			<set name="domains">Strength, War, Wrath</set>
+			<set name="symbol">Greataxe with a fanged maw in the blade</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>God of strength and war.</description>
+		</sheet>
+	</element>
+	
 </elements>
