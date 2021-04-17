@@ -4,10 +4,11 @@
 		<name>Feats</name>
 		<description>Feats from The (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="feats-full.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/feats-full.xml" />
 		</update>
 	</info>
+	
 	<element name="Honourable" type="Feat" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_FEAT_HONOURABLE">
 		<prerequisite>Any Lawful Alignment</prerequisite>
 		<description>
@@ -15,11 +16,70 @@
 			<p>You have shown yourself to be true to your word, honest and reliable. You gain the following benefits:</p>
 			<ul>
 				<li>Whenever you gain 2 or more points of Honour as a reward, you gain an additional 1 point of Honour.</li>
-				<li>You gain Certainty X (where X is 15 or your Honour, whichever is lower) on Intimidation and Persuasion skill checks where your Honour is involved. For example, Intimidation checks where you promise to kill someone or expose a dire secret they're trying to hide might carry more weight if your word does, as might Persuasion checks to convince someone to reveal more information about a job or provide a down payment before the job is complete. If you're unsure if this applies, discuss it with your GM.</li>
+				<li>You gain Certainty X (where X is 15 or your Honour, whichever is lower) on Intimidation and Persuasion Skill checks where your Honour is involved. For example, Intimidation checks where you promise to kill someone or expose a dire secret they're trying to hide might carry more weight if your word does, as might Persuasion checks to convince someone to reveal more information about a job or provide a down payment before the job is complete. If you're unsure if this applies, discuss it with your GM.</li>
 			</ul>
 		</description>
 		<sheet>
-			<description>Whenever you gain 2 or more points of Honour as a reward, you gain an additional 1 point of Honour. You gain Certainty X (where X is 15 or your Honour, whichever is lower) on Intimidation and Persuasion skill checks where your Honour is involved.</description>
+			<description>Whenever you gain 2 or more points of Honour as a reward, you gain an additional 1 point of Honour. You gain Certainty X (where X is 15 or your Honour, whichever is lower) on Intimidation and Persuasion Skill checks where your Honour is involved.</description>
+		</sheet>
+	</element>
+	
+	<element name="Target Assessment I" type="Feat" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_FEAT_TASSESSMENTONE">
+		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
+		<description>
+			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+				<p>You have studied the various foes the League faces, and how to assess their strengths and weaknesses. You gain the following benefit:</p>
+				<ul>
+					<li>You have Certainty 10 for any Ability or Skill checks needed to identify a creature's weaknesses outside of combat. This only applies to situations where the weaknesses would be realistically obvious; if you're unsure if this applies, discuss it with your GM.</li>
+				</ul>
+		</description>
+		<sheet>
+			<description>You have Certainty 10 for any Ability or Skill checks needed to identify a creature's weaknesses outside of combat.</description>
+		</sheet>
+	</element>
+	
+	<element name="Research Ability I" type="Feat" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_FEAT_RABILITYONE">
+		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
+		<description>
+			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+				<p>You have spent time learning how to effectively research information within the Hunter's League Library. You gain the following benefit:</p>
+				<ul>
+					<li>You have Certainty 10 for any Ability or Skill checks needed to research common or uncommon creatures when using the Hunter's League Library to perform your research.</li>
+				</ul>
+		</description>
+		<sheet>
+			<description>You have Certainty 10 for any Ability or Skill checks needed to research common or uncommon creatures when using the Hunter's League Library to perform your research.</description>
+		</sheet>
+	</element>
+	
+	<element name="Survival Training I" type="Feat" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_FEAT_STRAININGONE">
+		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
+		<description>
+			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+				<p>You've been taught how to survive in the Wild, and to a lesser extent, the Wildewood. You gain the following benefits:</p>
+				<ul>
+					<li>You have Certainty 10 for any Ability or Skill checks needed to find food, water, shelter and other essentials within any biome you know.</li>
+					<li>You know the Taiga, Marsh and Forest biomes.</li>
+				</ul>
+		</description>
+		<sheet>
+			<description>You have Certainty 10 for any Ability or Skill checks needed to find food, water, shelter and other essentials within the Taiga, Marsh and Forest biomes.</description>
+		</sheet>
+	</element>
+	
+	<element name="Medical Skills I" type="Feat" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_FEAT_MSKILLSONE">
+		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
+		<description>
+			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+				<p>You've practiced medicinal procedures that are useful in the field. You gain the following benefits:</p>
+				<ul>
+					<li>You know the methods needed to treat common and uncommon poisons and diseases.</li>
+					<li>You know the methods needed to treat more severe or permanent injuries, such as broken bones, hemororrhaging and the like.</li>
+					<li>You must still have access to the required tools, materials and supplies required to treat the injury or condition to do so.</li>
+				</ul>
+		</description>
+		<sheet>
+			<description>You know how to treat common and uncommon poisons and diseases, as well as more severe injuries such as broken bones, hemororrhaging and the like. You must still have the required supplies to do so.</description>
 		</sheet>
 	</element>
 	
