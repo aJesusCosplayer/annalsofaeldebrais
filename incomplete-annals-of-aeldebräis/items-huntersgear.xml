@@ -4,7 +4,7 @@
 		<name>Hunter's Gear</name>
 		<description>Hunter's Gear, Potions and Supplies from the (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/items-huntersgear.xml" />
 		</update>
 	</info>
@@ -165,7 +165,7 @@
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>This specialised weapon can deal slashing or piercing damage, can be used as a handaxe, pickaxe or shovel as needed, and takes one more level of damage to degrade or break.</p>
-			<div element="D_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL">
+			<div element="D_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL" />
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
@@ -181,7 +181,7 @@
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SILVERED, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p>This specialised weapon can deal slashing or piercing damage, can be used as a handaxe, pickaxe or shovel as needed, and takes one more level of damage to degrade or break.</p>
-			<div element="D_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL">
+			<div element="D_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL" />
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
