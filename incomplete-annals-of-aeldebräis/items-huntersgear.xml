@@ -4,10 +4,13 @@
 		<name>Hunter's Gear</name>
 		<description>Hunter's Gear, Potions and Supplies from the (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/items-huntersgear.xml" />
 		</update>
 	</info>
+	
+	<!-- Adventuring Gear -->
+	
 	<element name="Dried Wakelef" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_DRIEDWAKELEF">
 		<description>
 			<p>Dried, bitter smelling seed pods. Can be soaked in hot water to create up to 3 litres of Wakelef Brew, a potent stimulant. Consuming a serving of Wakelef Brew grants a +2 bonus to Initiative and a +1 bonus to Dexterity saving throws for the next 6 hours.</p>
@@ -15,10 +18,11 @@
 		<setters>
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="cp">3</set>
-			<set name="weight" lb="1/4">1/4 lb.</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
 	<element name="Glïsas Poultice" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_GLÏSASPOULTICE">
 		<description>
 			<p>A dark green poultice that smells strongly of pepper. Can be rubbed on the skin to grant resistance to environmental cold and cold damage for the next 6 hours, but vulnerability to environmental heat and fire damage for the same duration.</p>
@@ -26,10 +30,11 @@
 		<setters>
 			<set name="category"> Adventuring Gear</set>
 			<set name="cost" currency="cp">3</set>
-			<set name="weight" lb="1/4">1/4 lb.</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
 	<element name="Towaed Bulb" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_TOWAEDBULB">
 		<description>
 			<p>A large, spicy plant bulb that makes your tongue tingle a bit. Can be consumed to cure any common or uncommon poisons, including drunkness.</p>
@@ -37,10 +42,11 @@
 		<setters>
 			<set name="category"> Adventuring Gear</set>
 			<set name="cost" currency="cp">5</set>
-			<set name="weight" lb="1/4">1/4 lb.</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
 	<element name="Fréiva Fibres" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_FRÉIVAFIBRES">
 		<description>
 			<p>A small vial of plant matter preserved in honey. Chewing on the fibres cures paralysis and stunned but makes the user feel nauseous.</p>
@@ -48,10 +54,11 @@
 		<setters>
 			<set name="category"> Adventuring Gear</set>
 			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="1/4">1/4 lb.</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
 	<element name="Hunter's Oil" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_HUNTERSOIL">
 		<description>
 			<p>A mix of whale oil, powdered iron and silver, phosphorous and magnesium that burns and sparks for hours if not contained. Can be used to coat a weapon and lit to add 2d4 fire damage to the weapon for the duration of the combat. Any flammable targets may be lit on fire. Can also be used to destroy corpses or start fires very effectively, even in wet weather.</p>
@@ -59,10 +66,11 @@
 		<setters>
 			<set name="category"> Adventuring Gear</set>
 			<set name="cost" currency="sp">1</set>
-			<set name="weight" lb="1/2">1/2 lb.</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
 	<element name="Blömwine" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_BLÖMWINE">
 		<description>
 		<p>A mix of stiff alcohol, brollblöm and a variety of powdered chemicals that tastes like mint and gravel. Heals 1d6 + 4 Hit Points, staunches bleeding and cures any common poison (except Drunk), but for each dose taken beyond the first within 4 hours the user must make a DC 14 Constitution save. On a failed save they receive a level of Drunk and have disadvantage on their next Constitution save.</p>
@@ -70,19 +78,119 @@
 		<setters>
 			<set name="category"> Adventuring Gear</set>
 			<set name="cost" currency="sp">3</set>
-			<set name="weight" lb="1/2">1/2 lb.</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Snow Lily Serum" type="Item" source=" The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_SNOWLILYSERUM">
+	
+	<element name="Snow Lily Serum" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_SNOWLILYSERUM">
 		<description>
 			<p>A milky, sweet smelling liquid with a faintly smoky taste; a very powerful sedative in such concentrated doses. Can be force-fed to a creature, used to poison liquid or applied to any weapon that does piercing damage. When it enters a creature's body they immediately take a level of exhaustion and must make a DC 20 Constitution saving throw. On a failed save they immediately fall unconscious for half an hour or until awoken via damage. On a successful save they take another level of exhaustion as they become sluggish and slow-witted. All levels of exhaustion caused by this serum are lost after 1 hour passes.</p>
 		</description>
 		<setters>
 			<set name="category"> Adventuring Gear</set>
 			<set name="cost" currency="sp">15</set>
-			<set name="weight" lb="1/8">1/8 lb.</set>
+			<set name="weight" lb="0.125">1/8 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
+	<element name="Powdered Iron" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_PWRIRON">
+		<description>
+		<p>A small pouch of blessed and powdered iron, useful for mixing into food or fighting fey. Can be rubbed onto a metal weapon and heated to cause the weapon to count as magical for overcoming damage resistances and immunities of any fey creature for the next hour.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="weight" lb="0.125">1/8 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<element name="Powdered Silver" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_PWRSILVER">
+		<description>
+			<p>A small pouch of sanctified silver dust. Can be mixed into up to a litre of boiling water to create holy water, or can be used to silver a metal weapon if you know how.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<!-- Ammunition -->
+	
+	<element name="Silvered Arrow" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_SILVERARROW">
+		<description>
+			<p>A silver-tipped arrow used with a bow. As this ammunition is Silvered, it gets a +3 bonus to damage rolls against demons, devils, fey and undead.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="cp">4</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<element name="Silvered Bolt" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_SILVERBOLT">
+	<description>
+			<p>A silver-coated bolt used with a crossbow. As this ammunition is Silvered, it gets a +3 bonus to damage rolls against demons, devils, fey and undead.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<!-- Weapons and Weapon Properties -->
+	
+	<element name="Silvered" type="Weapon Property" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SILVERED">
+		<description>
+			<p>This weapon has been Silvered by a special process so as not to reduce the durability of the metal. This weapon gets a +3 bonus to damage rolls against demons, devils, fey and undead, but is harder to repair and must be maintained regularly.</p>
+		</description>
+	</element>
+	
+	<element name="Special (Survival Tool)" type="Weapon Property" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL">
+		<description>
+			<p>This specialised weapon can deal slashing or piercing damage, be used as a handaxe, pickaxe or shovel as needed, and takes one more level of damage to degrade or break.</p>
+		</description>
+	</element>
+	
+	<element name="Hunter's Survival Tool" type="Weapon" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_HTOOL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p>This specialised weapon can deal slashing or piercing damage, can be used as a handaxe, pickaxe or shovel as needed, and takes one more level of damage to degrade or break.</p>
+			<div element="D_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL">
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">8</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
+		</setters>
+	</element>
+	
+	<element name="Hunter's Survival Tool, Silvered" type="Weapon" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_HTOOL_SLV">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SILVERED, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p>This specialised weapon can deal slashing or piercing damage, can be used as a handaxe, pickaxe or shovel as needed, and takes one more level of damage to degrade or break.</p>
+			<div element="D_TBEA_AOA_INTERNAL_WEAPON_PROPERTY_SURVIVALTOOL">
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">10</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
+		</setters>
+	</element>
+	
 </elements>
