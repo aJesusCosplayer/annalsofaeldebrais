@@ -4,7 +4,7 @@
 		<name>Feats</name>
 		<description>Feats from The (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="feats-full.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/feats-full.xml" />
 		</update>
 	</info>
@@ -28,6 +28,7 @@
 		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
 		<description>
 			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+			<p><em>Please note these feats are meant to be recieved as rewards from Hunter's League training, and are not meant to be taken as standard feats.</em></p>
 				<p>You have studied the various foes the League faces, and how to assess their strengths and weaknesses. You gain the following benefit:</p>
 				<ul>
 					<li>You have Certainty 10 for any Ability or Skill checks needed to identify a creature's weaknesses outside of combat. This only applies to situations where the weaknesses would be realistically obvious; if you're unsure if this applies, discuss it with your GM.</li>
@@ -42,6 +43,7 @@
 		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
 		<description>
 			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+			<p><em>Please note these feats are meant to be recieved as rewards from Hunter's League training, and are not meant to be taken as standard feats.</em></p>
 				<p>You have spent time learning how to effectively research information within the Hunter's League Library. You gain the following benefit:</p>
 				<ul>
 					<li>You have Certainty 10 for any Ability or Skill checks needed to research common or uncommon creatures when using the Hunter's League Library to perform your research.</li>
@@ -56,6 +58,7 @@
 		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
 		<description>
 			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+			<p><em>Please note these feats are meant to be recieved as rewards from Hunter's League training, and are not meant to be taken as standard feats.</em></p>
 				<p>You've been taught how to survive in the Wild, and to a lesser extent, the Wildewood. You gain the following benefits:</p>
 				<ul>
 					<li>You have Certainty 10 for any Ability or Skill checks needed to find food, water, shelter and other essentials within any biome you know.</li>
@@ -71,6 +74,7 @@
 		<prerequisite>Rank of Apprentice within the Hunter's League</prerequisite>
 		<description>
 			<p><em>Prerequisite: Rank of Apprentice within the Hunter's League</em></p>
+			<p><em>Please note these feats are meant to be recieved as rewards from Hunter's League training, and are not meant to be taken as standard feats.</em></p>
 				<p>You've practiced medicinal procedures that are useful in the field. You gain the following benefits:</p>
 				<ul>
 					<li>You know the methods needed to treat common and uncommon poisons and diseases.</li>
