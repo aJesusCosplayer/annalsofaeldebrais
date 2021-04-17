@@ -4,7 +4,7 @@
 		<name>Hunter's Gear</name>
 		<description>Hunter's Gear, Potions and Supplies from the (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/items-huntersgear.xml" />
 		</update>
 	</info>
@@ -116,6 +116,79 @@
 			<set name="cost" currency="sp">5</set>
 			<set name="weight" lb="0.5">1/2 lb.</set>
 			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<element name="Hunter's Badge" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_HUNTERSBADGE">
+		<description>
+			<p>A simple leather and silver badge with the Hunter's League crest, a bow pointed skyward with three spears crossing behind it, emblazened on it. The name of the hunter this was given to, as well as the year they first signed on, can be found carved into the back.</p>
+			<p>This badge identifies you as a trained member of the Hunter's League, and carries some authority with it. Most people will do their best to offer you information and stay out of your way, though some people will react negitavely towards members of the League. Do your best not to lose it.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">0</set>
+			<set name="weight" lb="0.125">1/4 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+	
+	<element name="Hunter's Rations, 2 days" type="Item" source="The (Incomplete) Annals of Aeldebräis" id ="ID_TBEA_AOA_ITEM_HRATIONS">
+		<description>
+			<p>A well-packed container of spiced and dried fruit and berries, varying jerkies and mixed oats. Should last a Hunter about two days.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">3</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<element name="Hunter's Wash Kit" type="Item" source="The (Incomplete) Annals of Aeldebräis" id ="ID_TBEA_AOA_ITEM_HWASHKIT">
+		<description>
+			<p>A wooden box with a small silver mirror on the inside of the lid. Contains a fair amount of soap, a coarse flannel, a hand brush and a bottle of mint and bogsage perfume. Use of the kit when washing yourself gives you advantage on Constitution saving throws against common and uncommon diseases for the next 24 hours.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+	
+	<element name="Padded Sleeping Bag" type="Item" source="The (Incomplete) Annals of Aeldebräis" id ="ID_TBEA_AOA_ITEM_PSBAG">
+		<description>
+			<p>A waxed leather tube padded with cloth and furs that'll fit one medium creature. Warm and waterproof, can be sealed at the top, and even has a built-in pillow!</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">10</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+	
+	<element name="Whale Oil (flask)" type="Item" source="The (Incomplete) Annals of Aeldebräis" id ="ID_TBEA_AOA_ITEM_WOILFLASK">
+		<description>
+			<p>A 1 pint tin flask of pungent whale oil that burns and smells for a long time. When used as fuel for a lantern or other light source, the oil burns for 8 hours before going out. Due to its rather viscous nature, it cannot be splashed or thrown easily. </p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<element name="Hunter's Maintenance Kit" type="Item" source="The (Incomplete) Annals of Aeldebräis" id ="ID_TBEA_AOA_ITEM_HMAINTKIT">
+		<description>
+			<p>A small wooden box containing the tools needed to maintain and clean silvered weapons without damaging them; a fine whetstone, a small bottle of herb oil, a cleaning cloth, a pouch of salt and a pouch of powdered silver.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">6</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">false</set>
 		</setters>
 	</element>
 	
