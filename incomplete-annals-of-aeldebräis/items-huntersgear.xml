@@ -4,7 +4,7 @@
 		<name>Hunter's Gear</name>
 		<description>Hunter's Gear, Potions and Supplies from the (Incomplete) Annals of Aeldebräis.</description>
 		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="items-huntersgear.xml" url="https://raw.githubusercontent.com/aJesusCosplayer/annalsofaeldebrais/main/incomplete-annals-of-aeldebr%C3%A4is/items-huntersgear.xml" />
 		</update>
 	</info>
@@ -188,6 +188,18 @@
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="sp">6</set>
 			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+	
+	<element name="Field Doctor's Kit" type="Item" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_ITEM_FDOCTORKIT">
+		<description>
+			<p>A tightly bound roll of leather containing a variety of commonly used medical tools and supplies. Contains a set of iron surgeon's tools, ten rolls of bandages, an iron needle and small spool of waxed thread, a tin of numbing peppermint poultice, four small vials of very potent alcohol and a tin of salted honey.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">18</set>
+			<set name="weight" lb="3">3 lb.</set>
 			<set name="stackable">false</set>
 		</setters>
 	</element>
