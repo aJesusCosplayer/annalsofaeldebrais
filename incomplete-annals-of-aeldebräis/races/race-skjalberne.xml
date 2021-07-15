@@ -1,1 +1,77 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Skjalberne</name>
+		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
+		<update version="0.0.1">
+			<file name="race-skjalberne.xml" url="" />
+		</update>
+	</info>
+	<element name="Skjalberne" type="Race" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_RACE_SKJALBERNE">
+		<description>
+			<p class="flavor"></p>
+			<h4>Skjalberne Traits</h4>
+			<p>temp</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and your Charisma score increases by 1.<br/>
+				<span class="feature">Age.</span>Skjalberne mature and age slowly, much like Dwarves or their Giant ancestors. They're considered adults when they're 45 – 50 years old, and typically live to be around 300 years old.<br/>
+				<span class="feature">Alignment.</span>Most Skjalberne tend towards self-sufficency and neutrality, often having a somewhat distant view of the world around them. Chaotic Neutral and True Neutral are common alignments, though Neutral Good and Neutral Evil are also fairly common.<br/>
+				<span class="feature">Size.</span>While only stunted remnants of their Giant ancestors, Skjalberne are still massive when compared to the other races of Aldebräis.They stand between 8' 4” and 8' 11” and weigh between 350 – 450 pounds on average. Your size is Large.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 25 feet and you have a swim speed of 25 feet.<br/>
+				<span class="feature">Amphibious.</span>Skjalberne lungs can breathe air and water.<br/>
+				<span class="feature">Darkvision.</span>Accustomed to life in stormy conditions and atop lofty mountains, you can see up to 60 feet in darkness as if it was dim light, and 60 feet in dim light as if it was bright light. You can't discern colour in darkness, only shades of grey.<br/>
+				<span class="feature">Powerful Build.</span>You count as one size larger when determening your carrying capacity and the weight you can push, drag and lift.<br/>
+				<span class="feature">Stormborn Fury.</span>Skjalberne grow metallic horns from their skulls at an early age, and these horns can be a fearsome, if unwieldy weapon. If you have already hit a target with a melee attack on your turn, you can attack with your horns as a bonus action. This is a natural attack that you are considered proficient with, it has a range of 5 feet, and deals 1d4 + your Strength modifier bludgeoning damage. You can only make this attack once per round.<br/>
+				<span class="feature">Languages.</span>You can speak, read and write Giant and any common language of your choice.<br/>
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="male">Denadt, Heirem, Orldren, Volund</set>
+			<set name="names" type="female">Fiyrda, Imdrey, Lotna, Skanna</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d6">8'4"</set>
+			<set name="weight" modifier="5d20">350 lb.</set>
+		</setters>
+		<rules>
+		<stat name="constitution" value="2" />
+		<stat name="charisma" value="1" />
+		<stat name="innate speed" value="25" bonus="base" />
+		<stat name="innate speed:swim" value="25" bonus="base" />
+		<grant type="Size" id="ID_SIZE_LARGE" />
+		<grant type="Vision" id="ID_VISION_DARKVISION" />
+		<grant type="Language" id="ID_LANGUAGE_GIANT" />
+		<select type="Language" name="Language (Skjalberne)" supports="Standard" />
+		<grant type="Racial Trait" id="ID_TBEA_AOA_RACIAL_TRAIT_SKJALBERNE_AMPHIBIOUS" />
+		<grant type="Racial Trait" id="ID_TBEA_AOA_RACIAL_TRAIT_SKJALBERNE_POWERFUL_BUILD" />
+		<grant type="Racial Trait" id="ID_TBEA_AOA_RACIAL_TRAIT_SKJALBERNE_STORMBORN_FURY" />
+		</rules>
+	</element>
+	
+	<element name="Amphibious" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_RACIAL_TRAIT_SKJALBERNE_AMPHIBIOUS">
+		<description>
+			<p>Skjalberne lungs can breathe air and water.</p>
+		</description>
+		<sheet>
+			<description>Skjalberne lungs can breathe air and water.</description>
+		</sheet>
+	</element>
+	
+	<element name="Powerful Build" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_RACIAL_TRAIT_SKJALBERNE_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determening your carrying capacity and the weight you can push, drag and lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determening your carrying capacity and the weight you can push, drag and lift.</description>
+		</sheet>
+	</element>
+	
+	<element name="Stormborn Fury" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_RACIAL_TRAIT_SKJALBERNE_STORMBORN_FURY">
+		<description>
+			<p>Skjalberne grow metallic horns from their skulls at an early age, and these horns can be a fearsome, if unwieldy weapon. If you have already hit a target with a melee attack on your turn, you can attack with your horns as a bonus action. This is a natural attack that you are considered proficient with, it has a range of 5 feet, and deals 1d4 + your Strength modifier bludgeoning damage. You can only make this attack once per round.</p>
+		</description>
+		<sheet>
+			<description>If you've already hit a target with a melee attack on your turn, you can attack with your horns as a bonus action. This attack has a range of 5 feet and can only be made once per turn. If you hit, you deal 1d4+{{strength:modifier}} bludgeoning damage.</description>
+		</sheet>
+	</element>
+</elements>
