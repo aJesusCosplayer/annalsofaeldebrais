@@ -35,10 +35,10 @@
 		<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
 		<grant type="Language" id="ID_LANGUAGE_COMMON" />
 		<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
-		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_PACIFYING_SPORES">
-		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_RAPPORT_SPORE">
-		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_ANIMATING_SPORES">
-		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_FUNGAL_REGENERATION">
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_PACIFYING_SPORES" />
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_RAPPORT_SPORE" />
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_ANIMATING_SPORES" />
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_FUNGAL_REGENERATION" />
 		</rules>
 	</element>
 	
