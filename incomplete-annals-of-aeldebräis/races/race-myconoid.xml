@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Myconoid</name>
+		<author url="https://github.com/aJesusCosplayer/annalsofaeldebrais">Thomas Beazer</author>
+		<update version="0.0.2">
+			<file name="race-myconoid.xml" url="" />
+		</update>
+	</info>
+	<element name="Myconoid" type="Race" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_RACE_MYCONOID">
+		<description>
+			<p class="flavor"></p>
+			<h4>Myconoid Traits</h4>
+			<p>You have no idea of the can of worms you've opened, dear friend :)</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 2 and your Constitution score increases by 1.<br/>
+				<span class="feature">Age.</span>Myconoids reach maturity at 6 years old and can live to be a little over 1000, with the oldest myconoid becoming sovereign.<br/>
+				<span class="feature">Alignment.</span>Most myconoids are True Neutral, though good myconoids are fairly common. Evil myconoids are very rare.<br/>
+				<span class="feature">Size.</span>Myconoids range from 4 to 6 feet tall and weigh between 70 and 120 pounds (32 to 55 kg). Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+				<span class="feature">Superior Darkvision.</span>Accustomed to the darkness of the underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colours in darkness, only shades of grey.<br/>
+				<span class="feature">Pacifying Spores.</span>As an action, you can eject spores at one creature you can see within 15 foot of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute or until it takes damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain use of this trait once you have completed a short or long rest.<br/>
+				<span class="feature">Rapport Spores.</span>You may as an action, extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.<br/>
+				<span class="feature">Animating Spores.</span>As an action, you can target one corpse of a humanoid or a Large or smaller beast within 5 feet and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant(Monster Manual p.231). The corpse stays animated for 1d4 + 1 days or until destroyed, and it can't be animated again in this way. You can only have one spore servant at a time. You regain spent use of this trait when you complete a long rest.<br/>
+				<span class="feature">Fungal Regeneration</span>You can regain hit points equal to your Constitution modifier (minimum of 1) at the start of your turn if you have at least 1 hit point and aren't in sunlight. You can't use this trait on turns you've taken fire damage. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses of it when you finish a long rest.<br/>
+				<span class="feature">Languages.</span>You can understand, read and write Common and Undercommon, but can't speak.<br/>
+			</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+		<stat name="wisdom" value="2" />
+		<stat name="constitution" value="1" />
+		<stat name="innate speed" value="30" bonus="base" />
+		<grant type="Size" id="ID_SIZE_MEDIUM" />
+		<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+		<grant type="Language" id="ID_LANGUAGE_COMMON" />
+		<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_PACIFYING_SPORES">
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_RAPPORT_SPORE">
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_ANIMATING_SPORES">
+		<grant type="Racial Trait" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_FUNGAL_REGENERATION">
+		</rules>
+	</element>
+	
+	<element name="Amphibious" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBEA_AOA_RACIAL_TRAIT_SKJALBERNE_AMPHIBIOUS">
+		<description>
+			<p>Skjalberne lungs can breathe air and water.</p>
+		</description>
+		<sheet>
+			<description>Skjalberne lungs can breathe air and water.</description>
+		</sheet>
+	</element>
+	
+	<element name="Pacifying Spores" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_PACIFYING_SPORES">
+		<description>
+			<p>Eject spores at one creature you can see within 15 foot of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute or until it takes damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>Eject spores at one creature you can see within 15 foot of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute or until it takes damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+		</sheet>
+	</element>
+	
+	<element name="Rapport Spores" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_RAPPORT_SPORES">
+		<description>
+			<p>Extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.</p>
+		</description>
+		<sheet action="Action">
+			<description>Extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.</description>
+		</sheet>
+	</element>
+	
+	<element name="Animating Spores" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_ANIMATING_SPORES">
+		<description>
+			<p>Target one corpse of a humanoid or a Large or smaller beast within 5 feet and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant(Monster Manual p.231). The corpse stays animated for 1d4 + 1 days or until destroyed, and it can't be animated again in this way. You can only have one spore servant at a time.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>Target one corpse of a humanoid or a Large or smaller beast within 5 feet and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant(Monster Manual p.231). The corpse stays animated for 1d4 + 1 days or until destroyed, and it can't be animated again in this way. You can only have one spore servant at a time.</description>
+		</sheet>
+	</element>
+	
+	<element name="Fungal Regeneration" type="Racial Trait" source="The (Incomplete) Annals of Aeldebräis" id="ID_TBAA_AOA_RACIAL_TRAIT_MYCONOID_FUNGAL_REGENERATION">
+		<description>
+			<p>You can regain hit points equal to your Constitution modifier (minimum of 1) at the start of your turn if you have at least 1 hit point and aren't in sunlight. You can't use this trait on turns you've taken fire damage. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses of it when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You can regain hit points equal to your Constitution modifier (minimum of 1) at the start of your turn if you have at least 1 hit point and aren't in sunlight. You can't use this trait on turns you've taken fire damage. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses of it when you finish a long rest.</description>
+		</sheet>
+	</element>
